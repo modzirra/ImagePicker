@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)startImagePicker:(id)sender{
+    UIImagePickerController *picker = [UIImagePickerController new];
+    [self presentViewController:picker animated:YES completion:nil];
+    // create image picker and implement
+}
 @end

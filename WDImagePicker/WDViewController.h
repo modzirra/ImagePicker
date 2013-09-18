@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WDViewController : UIViewController
-
+    -(IBAction)startImagePicker:(id)sender;
 @end
